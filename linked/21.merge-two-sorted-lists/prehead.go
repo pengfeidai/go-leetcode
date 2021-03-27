@@ -12,14 +12,12 @@ func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {
 			l2 = l2.Next
 		}
 		prehead = prehead.Next
-
-		if l1 != nil {
-			prehead.Next = l1
-		}
-
-		if l2 != nil {
-			prehead.Next = l2
-		}
+	}
+	if l1 != nil {
+		prehead.Next = l1
+	}
+	if l2 != nil {
+		prehead.Next = l2
 	}
 	return result.Next
 }
