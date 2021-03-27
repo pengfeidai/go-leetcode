@@ -1,4 +1,4 @@
-package leetcode
+package stack
 
 func isValid(s string) bool {
 	// 空字符串直接返回true
